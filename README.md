@@ -1,6 +1,4 @@
-# Day-Planner-App
-
-# Console-Finances - Yusuf Usman
+# Day-Planner-App - Yusuf Usman
 
 ## Deployed Application
 Application Url - https://y-usman.github.io/Day-Planner-App/
