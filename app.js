@@ -1,35 +1,3 @@
-// $(document).ready(function() {
-//     // Display the current day
-//     $('#currentDay').text(dayjs().format('dddd, MMMM D, YYYY'));
-  
-//     // Load events from local storage if available
-//     let events = JSON.parse(localStorage.getItem('events')) || {};
-  
-//     // Populate events from local storage
-//     function populateEvents() {
-//       $('.timeblock').each(function() {
-//         const hour = $(this).data('hour');
-//         const eventText = events[hour] || '';
-//         $(this).find('textarea').val(eventText);
-//       });
-//     }
-  
-//     // Event form submission
-//     $('.saveBtn').click(function() {
-//       const hour = $(this).closest('.timeblock').data('hour');
-//       const eventText = $(this).siblings('textarea').val();
-  
-//       // Save the event to the events object
-//       events[hour] = eventText;
-  
-//       // Save events to local storage
-//       localStorage.setItem('events', JSON.stringify(events));
-//     });
-  
-//     // Populate events on page load
-//     populateEvents();
-//   });
-
 $(document).ready(function() {
   // Get the current date and time using Day.js
   const currentDate = dayjs();
